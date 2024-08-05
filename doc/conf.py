@@ -17,7 +17,8 @@ author = 'esse LL'
 extensions = ['myst_parser']
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['README*', '_build', 'Thumbs.db', '.DS_Store',
+                    'jupyter_execute', '*venv*']
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -25,6 +26,10 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'sphinx_book_theme'
 html_static_path = ['_static']
+
+html_title = "My Page"
+
+html_favicon = 'favicon.ico'
 
 html_theme_options = {
     "repository_url": "https://github.com/lacus-w/mypage",
