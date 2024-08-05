@@ -14,7 +14,10 @@ author = 'esse LL'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser']
+extensions = [
+	'myst_parser',
+	'sphinx_copybutton'
+]
 
 templates_path = ['_templates']
 exclude_patterns = ['README*', '_build', 'Thumbs.db', '.DS_Store',
@@ -33,5 +36,11 @@ html_favicon = 'favicon.ico'
 
 html_theme_options = {
     "repository_url": "https://github.com/lacus-w/mypage",
-    "use_repository_button": True,
+    # "use_repository_button": True,
+    "repository_branch": "master",
+    "use_edit_page_button": True,
+    "use_source_button": True,
+    "use_download_button": True,
+    "use_sidenotes": True,
+    "show_toc_level": 2,
 }
