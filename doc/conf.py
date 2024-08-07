@@ -15,7 +15,7 @@ author = 'esse LL'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-	'myst_parser',
+# 'myst_parser',
 	'sphinx_copybutton',
 	'myst_nb',
 ]
