@@ -16,7 +16,8 @@ author = 'esse LL'
 
 extensions = [
 	'myst_parser',
-	'sphinx_copybutton'
+	'sphinx_copybutton',
+	'myst_nb',
 ]
 
 templates_path = ['_templates']
