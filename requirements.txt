@@ -1,6 +1,12 @@
 sphinx
 #sphinx_rtd_theme
 sphinx-book-theme
-myst_parser
+#myst_parser
 sphinx-copybutton
 myst-nb
+pandas
+numpy
+scipy
+seaborn
+matplotlib
+scikit-learn
